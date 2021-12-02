@@ -1,0 +1,15 @@
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\bin\Debug\net6.0\DecolaTech.exe
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\bin\Debug\net6.0\DecolaTech.deps.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\bin\Debug\net6.0\DecolaTech.runtimeconfig.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\bin\Debug\net6.0\DecolaTech.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\bin\Debug\net6.0\ref\DecolaTech.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\bin\Debug\net6.0\DecolaTech.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\DecolaTech.csproj.AssemblyReference.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\DecolaTech.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\DecolaTech.AssemblyInfoInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\DecolaTech.AssemblyInfo.cs
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\DecolaTech.csproj.CoreCompileInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\DecolaTech.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\ref\DecolaTech.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\DecolaTech.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DecolaTech\DecolaTech\obj\Debug\net6.0\DecolaTech.genruntimeconfig.cache
