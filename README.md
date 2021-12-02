@@ -1,2 +1,3 @@
-# c-sharp-dotnet
+# C# and .NET
+
 C# and .NET studies.
