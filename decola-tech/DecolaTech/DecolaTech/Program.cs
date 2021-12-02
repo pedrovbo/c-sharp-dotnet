@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DecolaTech;
+using Interface;
 
 namespace DecolaTech
 {
@@ -23,8 +24,12 @@ namespace DecolaTech
             person2.Idade = 32;
             person2.Estado = "Recife";
 
-            Console.WriteLine(person2);
-            Console.WriteLine(person);
+            Animal animal = new Animal();
+
+            animal.Nome = "Laila";            
+            animal.Dono = "Pedro";
+            animal.Especie = "Cachorro";
+
         }
     }
 }
