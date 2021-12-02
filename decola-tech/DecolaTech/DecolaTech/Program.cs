@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DecolaTech;
 using Interface;
+using Enum;
 
 namespace DecolaTech
 {
@@ -12,11 +13,19 @@ namespace DecolaTech
     {
         static void Main(string[] args)
         {
+            var pessoa1 = (Pessoas)0;
+            Pessoas pessoa2 = Pessoas.José;
+            Pessoas pessoa3 = (Pessoas)4;
+
+            Console.WriteLine(pessoa1 + " " + pessoa2 + " " + pessoa3);
+
             Pessoa person = new Pessoa();
 
             person.Nome = "Pedro";
             person.Idade = 32;
             person.Estado = "Recife";
+
+            Console.WriteLine(person.Nome.ToString());
 
             var person2 = new Pessoa();
 
@@ -29,6 +38,7 @@ namespace DecolaTech
             animal.Nome = "Laila";            
             animal.Dono = "Pedro";
             animal.Especie = "Cachorro";
+
 
         }
     }
