@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\decola-tech"
+    "\\decola-tech",
+    "\\decola-tech\\DecolaTech"
   ],
-  "SelectedNode": "\\decola-tech",
+  "SelectedNode": "\\decola-tech\\DecolaTech\\DecolaTech.sln",
   "PreviewInSolutionExplorer": false
 }
