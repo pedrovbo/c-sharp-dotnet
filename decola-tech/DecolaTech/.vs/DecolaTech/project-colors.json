@@ -5,7 +5,12 @@
       "ProjectGuid": "0fd794c0-f2b1-4b48-a9bd-96ab0e9de4ef",
       "DisplayName": "DecolaTech",
       "ColorIndex": 0
+    },
+    "860a966b-2b07-4526-9275-627da90559b6": {
+      "ProjectGuid": "860a966b-2b07-4526-9275-627da90559b6",
+      "DisplayName": "DecolaTechTests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
