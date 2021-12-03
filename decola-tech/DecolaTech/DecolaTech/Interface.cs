@@ -9,14 +9,14 @@ namespace Interface
     interface IAnimal
     {
         void Nome(String nome);
-        void Dono(String nome);
+        void Dono(String nomeDono);
         void Especie(String especie);
     }
 
     class Animal : IAnimal
     {
         public string Nome { get; set; }
-        public string Dono { get; set; }
+        public string NomeDono { get; set; }
         public String Especie { get; set; }
 
         void IAnimal.Nome(string nome)
@@ -26,7 +26,7 @@ namespace Interface
 
         void IAnimal.Dono(string nomeDono)
         {
-            this.Dono = nomeDono;
+            this.NomeDono = nomeDono;
         }
 
         void IAnimal.Especie(string especie)

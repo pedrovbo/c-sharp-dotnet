@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 using DecolaTech;
 using Interface;
 using Enum;
+using Classes;
+using Primeiro;
 
-namespace DecolaTech
+namespace CSharp
 {
     class Program
     {
@@ -36,8 +38,11 @@ namespace DecolaTech
             Animal animal = new Animal();
 
             animal.Nome = "Laila";            
-            animal.Dono = "Pedro";
+            animal.NomeDono = "Pedro";
             animal.Especie = "Cachorro";
+
+            var classe = new Classe();
+            var classe2 = new Segundo.Classe();
 
 
         }
