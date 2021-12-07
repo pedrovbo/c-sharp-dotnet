@@ -7,21 +7,33 @@ namespace ExemploPOO
     {
         static void Main(string[] args)
         {
-            Aluno aluno = new Aluno();
-            aluno.Nome = "Jorge";
-            aluno.Idade = 28;
-            aluno.Nota = 9.5;
-            aluno.Documento = "82364823";
+            
+            Corrente conta = new Corrente();
 
-            aluno.Apresentar();
+            conta.Creditar(100);
+
+            conta.ExibirSaldo();
+
+            // Calculadora calc = new Calculadora();
+            // System.Console.WriteLine("Resultado da primeira soma: " + calc.Somar(2, 3));
+            // System.Console.WriteLine("Resultado da primeira soma: " + calc.Somar(2, 3, 6));
             
-            Professor professor = new Professor();
-            professor.Nome = "Alfredo";
-            professor.Idade = 47;
-            professor.Salario = 3500.00;
-            professor.Documento = "63742034";
             
-            professor.Apresentar();
+            // Aluno aluno = new Aluno();
+            // aluno.Nome = "Jorge";
+            // aluno.Idade = 28;
+            // aluno.Nota = 9.5;
+            // aluno.Documento = "82364823";
+
+            // aluno.Apresentar();
+            
+            // Professor professor = new Professor();
+            // professor.Nome = "Alfredo";
+            // professor.Idade = 47;
+            // professor.Salario = 3500.00;
+            // professor.Documento = "63742034";
+            
+            // professor.Apresentar();
             // Retangulo r = new Retangulo();
 
             // r.DefinirMedidas(30, 30);
