@@ -4,7 +4,7 @@ namespace ExemploPOO.Models
     {
         public double Salario { get; set; }
 
-        public override void Apresentar()
+        public sealed override void Apresentar()
         {
             System.Console.WriteLine($"Olá meu nome é {this.Nome}. Sou um professor, ganho um salário {this.Salario}");
         }
