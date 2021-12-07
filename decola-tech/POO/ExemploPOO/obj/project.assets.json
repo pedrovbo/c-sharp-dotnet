@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\cs-dotnet\\repositoriosGit\\c-sharp-dotnet\\decola-tech\\POO\\ExemploPOO\\ExemploPOO.csproj",
+      "projectUniqueName": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\POO\\ExemploPOO\\ExemploPOO.csproj",
       "projectName": "ExemploPOO",
-      "projectPath": "C:\\Projetos\\cs-dotnet\\repositoriosGit\\c-sharp-dotnet\\decola-tech\\POO\\ExemploPOO\\ExemploPOO.csproj",
+      "projectPath": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\POO\\ExemploPOO\\ExemploPOO.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\cs-dotnet\\repositoriosGit\\c-sharp-dotnet\\decola-tech\\POO\\ExemploPOO\\obj\\",
+      "outputPath": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\POO\\ExemploPOO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
