@@ -7,17 +7,32 @@ namespace ExemploPOO
     {
         static void Main(string[] args)
         {
-            Retangulo r = new Retangulo();
+            Aluno aluno = new Aluno();
+            aluno.Nome = "Jorge";
+            aluno.Idade = 28;
+            aluno.Nota = 9.5;
+            aluno.Documento = "82364823";
 
-            r.DefinirMedidas(30, 30);
-            r.ObterArea();
-            System.Console.WriteLine($"Área: {r.ObterArea()}");
+            aluno.Apresentar();
+            
+            Professor professor = new Professor();
+            professor.Nome = "Alfredo";
+            professor.Idade = 47;
+            professor.Salario = 3500.00;
+            professor.Documento = "63742034";
+            
+            professor.Apresentar();
+            // Retangulo r = new Retangulo();
 
-            Retangulo r2 = new Retangulo();
+            // r.DefinirMedidas(30, 30);
+            // r.ObterArea();
+            // System.Console.WriteLine($"Área: {r.ObterArea()}");
 
-            r2.DefinirMedidas(0, 30);
-            r2.ObterArea();
-            System.Console.WriteLine($"Área: {r2.ObterArea()}");
+            // Retangulo r2 = new Retangulo();
+
+            // r2.DefinirMedidas(0, 30);
+            // r2.ObterArea();
+            // System.Console.WriteLine($"Área: {r2.ObterArea()}");
             
             // Pessoa p1 = new Pessoa();
 
