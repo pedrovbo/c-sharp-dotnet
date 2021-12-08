@@ -54,5 +54,22 @@ namespace ExemploPOO.Helper
             }
             
         }
+
+        public void AdicionarTexto(string caminho, string conteudo)
+        {
+            File.AppendAllText(caminho, conteudo);
+        }
+
+        public void AdicionarTextoStream(string caminho, List<string> conteudo)
+        {
+            using (var stream = File.AppendText(caminho)) // o using aqui é usado para garantir o fechamento da stream após o uso
+            {
+                foreach (var linha in conteudo)
+                {
+                    stream.WriteLine(linha);
+                }
+            }
+            
+        }
     }
 }
