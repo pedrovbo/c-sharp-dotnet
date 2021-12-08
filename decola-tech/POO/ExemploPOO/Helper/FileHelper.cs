@@ -1,4 +1,5 @@
 using System.IO;
+using System.Collections.Generic;
 
 namespace ExemploPOO.Helper
 {
@@ -40,6 +41,18 @@ namespace ExemploPOO.Helper
             if(!File.Exists(caminho)) {
                 File.WriteAllText(caminho, conteudo);
             }
+        }
+
+        public void CriarArquivoTextoStream(string caminho, List<string> conteudo)
+        {
+            using (var stream = File.CreateText(caminho)) // o using aqui é usado para garantir o fechamento da stream após o uso
+            {
+                foreach (var linha in conteudo)
+                {
+                    stream.WriteLine(linha);
+                }
+            }
+            
         }
     }
 }
