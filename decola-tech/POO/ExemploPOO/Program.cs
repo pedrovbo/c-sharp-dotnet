@@ -20,9 +20,9 @@ namespace ExemploPOO
 
 
             FileHelper helper = new FileHelper();
-            
-            helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
-            helper.AdicionarTextoStream(caminhoArquivo, listaStringContinuacao);
+            helper.LerArquivoStream(caminhoArquivo);
+            // helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
+            // helper.AdicionarTextoStream(caminhoArquivo, listaStringContinuacao);
             // helper.CriarArquivoTexto(caminhoArquivo, "Olá, teste de escrita de arquivo");
             // helper.ApagarDiretorio(caminhoPathCombine, true);
             // helper.CriarDiretorio(caminhoPathCombine);
