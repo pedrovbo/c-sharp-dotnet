@@ -88,11 +88,16 @@ namespace ExemploPOO.Helper
 
             using(var stream = File.OpenText(caminho))
             {
-                while (((linha = stream.ReadLine()) != null))
+                while ((linha = stream.ReadLine()) != null)
                 {
                      System.Console.WriteLine(linha);
                 }
             }
+        }
+
+        public void MoverArquivo(string caminho, string novoCaminho)
+        {
+            File.Move(caminho, novoCaminho);
         }
     }
 }
