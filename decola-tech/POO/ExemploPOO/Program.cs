@@ -13,8 +13,8 @@ namespace ExemploPOO
 
             FileHelper helper = new FileHelper();
 
-            helper.ListarDiretorios(caminho);
-            
+            // helper.ListarDiretorios(caminho);
+            helper.ListarArquivosDiretorios(caminho);
             
             // ICalculadora calc = new Calculadora();
 

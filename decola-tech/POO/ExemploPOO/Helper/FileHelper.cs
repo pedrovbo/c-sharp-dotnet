@@ -13,5 +13,15 @@ namespace ExemploPOO.Helper
                 System.Console.WriteLine(retorno);
             }
         }
+
+        public void ListarArquivosDiretorios(string caminho)
+        {
+            var retornoArquivos = Directory.GetFiles(caminho, "*2.*", SearchOption.AllDirectories);
+
+            foreach (var retorno in retornoArquivos)
+            {
+                System.Console.WriteLine(retorno);
+            }
+        }
     }
 }
