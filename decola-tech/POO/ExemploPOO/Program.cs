@@ -8,11 +8,16 @@ namespace ExemploPOO
         static void Main(string[] args)
         {
             
-            Corrente conta = new Corrente();
+            
+            
+            Computador computador = new Computador();
+            System.Console.WriteLine(computador.ToString()); 
+            
+            // Corrente conta = new Corrente();
 
-            conta.Creditar(100);
+            // conta.Creditar(100);
 
-            conta.ExibirSaldo();
+            // conta.ExibirSaldo();
 
             // Calculadora calc = new Calculadora();
             // System.Console.WriteLine("Resultado da primeira soma: " + calc.Somar(2, 3));
