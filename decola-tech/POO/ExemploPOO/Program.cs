@@ -2,6 +2,7 @@
 using ExemploPOO.Helper;
 using ExemploPOO.Interfaces;
 using ExemploPOO.Models;
+using System.IO;
 
 namespace ExemploPOO
 {
@@ -9,12 +10,14 @@ namespace ExemploPOO
     {
         static void Main(string[] args)
         {
-            var caminho = "C:\\TrabalhandoComArquivos";
-
+            var caminho = "C:\\TrabalhandoComArquivos\\NovoDiretorio";
+            var caminhoPathCombine = Path.Combine(caminho, "Pasta teste 4", "Subpasta teste 4");
             FileHelper helper = new FileHelper();
-
+            System.Console.WriteLine("Criando diretório: "  + caminhoPathCombine);
+            helper.CriarDiretorio(caminhoPathCombine);
             // helper.ListarDiretorios(caminho);
-            helper.ListarArquivosDiretorios(caminho);
+            // helper.ListarArquivosDiretorios(caminho);
+            
             
             // ICalculadora calc = new Calculadora();
 
