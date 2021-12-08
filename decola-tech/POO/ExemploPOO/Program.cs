@@ -10,11 +10,12 @@ namespace ExemploPOO
     {
         static void Main(string[] args)
         {
-            var caminho = "C:\\TrabalhandoComArquivos\\NovoDiretorio";
-            var caminhoPathCombine = Path.Combine(caminho, "Pasta teste 4", "Subpasta teste 4");
+            var caminho = "C:\\TrabalhandoComArquivos";
+            var caminhoPathCombine = Path.Combine(caminho, "Pasta teste 1");
             FileHelper helper = new FileHelper();
-            System.Console.WriteLine("Criando diretório: "  + caminhoPathCombine);
-            helper.CriarDiretorio(caminhoPathCombine);
+            
+            helper.ApagarDiretorio(caminhoPathCombine, true);
+            // helper.CriarDiretorio(caminhoPathCombine);
             // helper.ListarDiretorios(caminho);
             // helper.ListarArquivosDiretorios(caminho);
             

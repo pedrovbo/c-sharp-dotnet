@@ -29,5 +29,10 @@ namespace ExemploPOO.Helper
             var retorno = Directory.CreateDirectory(caminho);
             System.Console.WriteLine(retorno.FullName);
         }
+
+        public void ApagarDiretorio(string caminho, bool apagarArquivos)
+        {
+            Directory.Delete(caminho, apagarArquivos);
+        }
     }
 }
