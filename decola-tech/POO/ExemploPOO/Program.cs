@@ -14,6 +14,8 @@ namespace ExemploPOO
             var caminho = "C:\\TrabalhandoComArquivos";
             var caminhoPathCombine = Path.Combine(caminho, "Pasta teste 1");
             var caminhoArquivo = Path.Combine(caminho, "arquivo-teste.txt");
+            var caminhoArquivoTeste = Path.Combine(caminho, "arquivo-teste.txt");
+            var caminhoArquivoTesteCopia = Path.Combine(caminho, "arquivo-teste-bkp.txt");
             var novoCaminhoArquivo = Path.Combine(caminho, "Pasta teste 2", "arquivo-teste.txt");
 
             var listaString = new List<string> {"Linha 1", "Linha 2", "Linha 3"};
@@ -22,7 +24,9 @@ namespace ExemploPOO
 
             FileHelper helper = new FileHelper();
             
-            helper.MoverArquivo(caminhoArquivo, novoCaminhoArquivo);
+            // helper.CopiarArquivo(caminhoArquivoTeste, caminhoArquivoTesteCopia, false);
+            helper.LerArquivoStream(caminhoArquivo);
+            // helper.MoverArquivo(caminhoArquivo, novoCaminhoArquivo, false);
             // helper.LerArquivoStream(caminhoArquivo);
             // helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
             // helper.AdicionarTextoStream(caminhoArquivo, listaStringContinuacao);

@@ -84,7 +84,7 @@ namespace ExemploPOO.Helper
 
         public void LerArquivoStream(string caminho)
         {
-            string linha = string.Empty;
+            string? linha = null;
 
             using(var stream = File.OpenText(caminho))
             {
@@ -95,9 +95,14 @@ namespace ExemploPOO.Helper
             }
         }
 
-        public void MoverArquivo(string caminho, string novoCaminho)
+        public void MoverArquivo(string caminho, string novoCaminho, bool sobrescrever)
         {
-            File.Move(caminho, novoCaminho);
+            File.Move(caminho, novoCaminho, sobrescrever);
+        }
+
+        public void CopiarArquivo(string caminho, string novoCaminho, bool sobrescrever)
+        {
+            File.Copy(caminho, novoCaminho, sobrescrever);
         }
     }
 }
