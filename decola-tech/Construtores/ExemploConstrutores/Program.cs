@@ -10,6 +10,7 @@ namespace ExemploConstrutores
         {
             // operacao op = Calculadora.Somar;
             operacao op = new operacao(Calculadora.Somar);
+            op += Calculadora.Subtrair;
             op.Invoke(10, 20);
             op(20,30);
 
