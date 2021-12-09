@@ -8,8 +8,14 @@ namespace ExemploConstrutores
         static void Main(string[] args)
         {
 
-            Aluno aluno = new Aluno("Pedro", "Oliveira", "C# e .NET");
-            aluno.Apresentar();
+            Data data = new Data();
+            data.Mes = 4;
+            data.ApresentarMes();
+            // System.Console.WriteLine(data.Mes);
+
+                        
+            // Aluno aluno = new Aluno("Pedro", "Oliveira", "C# e .NET");
+            // aluno.Apresentar();
             // Log log = Log.GetInstance();
 
             // log.PropriedadeLog = "Teste instância";
