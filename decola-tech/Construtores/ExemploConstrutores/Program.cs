@@ -8,11 +8,16 @@ namespace ExemploConstrutores
         public delegate void operacao(int x, int y);
         static void Main(string[] args)
         {
+            Matematica m = new Matematica(10, 20);
+            m.Somar();
+
+
+            
             // operacao op = Calculadora.Somar;
-            operacao op = new operacao(Calculadora.Somar);
-            op += Calculadora.Subtrair;
-            op.Invoke(10, 20);
-            op(20,30);
+            // operacao op = new operacao(Calculadora.Somar);
+            // op += Calculadora.Subtrair;
+            // op.Invoke(10, 20);
+            // op(20,30);
 
 
             // const double pi = 3.14;
