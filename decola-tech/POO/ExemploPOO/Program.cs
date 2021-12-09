@@ -24,8 +24,9 @@ namespace ExemploPOO
 
             FileHelper helper = new FileHelper();
             
+            helper.DeletarArquivo(caminhoArquivoTesteCopia);
             // helper.CopiarArquivo(caminhoArquivoTeste, caminhoArquivoTesteCopia, false);
-            helper.LerArquivoStream(caminhoArquivo);
+            // helper.LerArquivoStream(caminhoArquivo);
             // helper.MoverArquivo(caminhoArquivo, novoCaminhoArquivo, false);
             // helper.LerArquivoStream(caminhoArquivo);
             // helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
