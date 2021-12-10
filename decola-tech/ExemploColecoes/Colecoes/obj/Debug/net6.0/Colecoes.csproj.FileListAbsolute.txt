@@ -1,0 +1,15 @@
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.exe
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.deps.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.runtimeconfig.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\bin\Debug\net6.0\ref\Colecoes.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\bin\Debug\net6.0\Colecoes.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.csproj.AssemblyReference.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.AssemblyInfoInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.AssemblyInfo.cs
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.csproj.CoreCompileInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\ref\Colecoes.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\ExemploColecoes\Colecoes\obj\Debug\net6.0\Colecoes.genruntimeconfig.cache
