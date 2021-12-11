@@ -14,7 +14,8 @@ namespace Colecoes
             System.Console.WriteLine("Array original: ");
             op.ImprimirArray(array);
 
-            op.OrdernarBubbleSort(ref array);
+            // op.OrdernarBubbleSort(ref array);
+            op.Ordenar(ref array);
 
             System.Console.WriteLine("Array ordenado:");
             op.ImprimirArray(array);
