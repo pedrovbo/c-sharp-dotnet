@@ -46,5 +46,10 @@ namespace Colecoes.Helper
         {
             return Array.TrueForAll(array, elemento => elemento > valor);
         }
+
+        public int ObterValor(int[] array, int valor)
+        {
+            return Array.Find(array, elemento => elemento == valor);
+        }
     }
 }
