@@ -11,6 +11,7 @@ namespace Colecoes
             OperacoesArray op = new OperacoesArray();
             int[] array = new int[5] { 6, 3, 8, 1, 9};
             int[] arrayCopia = new int[10];
+            string[] arrayString = op.ConverterParaArrayString(array);
             
             // int valorProcurado = 3;
 
@@ -19,7 +20,7 @@ namespace Colecoes
             op.RedimensionarArray(ref array, array.Length * 2);
 
             System.Console.WriteLine($"Capacidade após redimensionar o array: {array.Length}");
-            
+                        
             // int indice = op.ObterIndice(array, valorProcurado);
 
             // if (indice > -1)
