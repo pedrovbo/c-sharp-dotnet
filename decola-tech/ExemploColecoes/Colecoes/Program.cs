@@ -10,17 +10,36 @@ namespace Colecoes
         {
             OperacoesArray op = new OperacoesArray();
             int[] array = new int[5] { 6, 3, 8, 1, 9};
+            int[] arrayCopia = new int[10];
+            
+            int valorProcurado = 10;
+            bool existe = op.Existe(array, valorProcurado);
 
-            System.Console.WriteLine("Array original: ");
-            op.ImprimirArray(array);
+            if (existe)
+            {   
+                System.Console.WriteLine("Encontrei o valor: {0}", valorProcurado);
+            }
+            else
+            {
+                System.Console.WriteLine("Não encontrei o valor: {0}", valorProcurado);
+            }
+
+            // System.Console.WriteLine("Array original: ");
+            // op.ImprimirArray(array);
 
             // op.OrdernarBubbleSort(ref array);
-            op.Ordenar(ref array);
-
-            System.Console.WriteLine("Array ordenado:");
-            op.ImprimirArray(array);
+            // op.Ordenar(ref array);
 
 
+            // System.Console.WriteLine("Array ordenado:");
+            // op.ImprimirArray(array);
+
+            // System.Console.WriteLine("Array antes da cópia:");
+            // op.ImprimirArray(arrayCopia);
+
+            // op.Copiar(ref array, ref arrayCopia);
+            // System.Console.WriteLine("Array após a cópia:");
+            // op.ImprimirArray(arrayCopia);
             
             // int[,] matriz = new int[4, 2]
             // {
