@@ -8,21 +8,35 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            Queue<string> fila = new Queue<string>();
+            Stack<string> pilhaLivros = new Stack<string>();
 
-            fila.Enqueue("Leonardo");
-            fila.Enqueue("Eduardo");
-            fila.Enqueue("André");
+            pilhaLivros.Push(".NET");
+            pilhaLivros.Push("DDD");
+            pilhaLivros.Push("Código Limpo");
 
-            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
-
-            while (fila.Count > 0)
+            System.Console.WriteLine($"Livros para a leitura: {pilhaLivros.Count()}");
+            while (pilhaLivros.Count > 0)
             {
-                 System.Console.WriteLine($"Vez de: {fila.Peek()}");
-                 System.Console.WriteLine($"{fila.Dequeue()} atendido");
+                System.Console.WriteLine($"Próximo livro para a leitura: {pilhaLivros.Peek()}");
+                System.Console.WriteLine($"{pilhaLivros.Pop()} lido com sucesso");
             }
+            System.Console.WriteLine($"Livros para a leitura: {pilhaLivros.Count()}");
 
-            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+            // Queue<string> fila = new Queue<string>();
+
+            // fila.Enqueue("Leonardo");
+            // fila.Enqueue("Eduardo");
+            // fila.Enqueue("André");
+
+            // System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+            // while (fila.Count > 0)
+            // {
+            //     System.Console.WriteLine($"Vez de: {fila.Peek()}");
+            //     System.Console.WriteLine($"{fila.Dequeue()} atendido");
+            // }
+
+            // System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
 
             // string[] estadosArray = new string[2] {"SC", "MT"};
             // OperacoesLista opLista = new OperacoesLista();
