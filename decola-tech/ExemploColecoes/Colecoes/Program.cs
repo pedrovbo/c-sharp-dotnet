@@ -8,22 +8,38 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            string[] estadosArray = new string[2] {"SC", "MT"};
-            OperacoesLista opLista = new OperacoesLista();
-            List<string> estados = new List<string>();
-            estados.Add("SP");
-            estados.Add("MG");
-            estados.Add("BA");
+            Queue<string> fila = new Queue<string>();
 
-            System.Console.WriteLine($"Quantidade de elemetnos na lista: {estados.Count}");
+            fila.Enqueue("Leonardo");
+            fila.Enqueue("Eduardo");
+            fila.Enqueue("André");
 
-            opLista.ImprimirListaString(estados);
+            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+            while (fila.Count > 0)
+            {
+                 System.Console.WriteLine($"Vez de: {fila.Peek()}");
+                 System.Console.WriteLine($"{fila.Dequeue()} atendido");
+            }
+
+            System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+
+            // string[] estadosArray = new string[2] {"SC", "MT"};
+            // OperacoesLista opLista = new OperacoesLista();
+            // List<string> estados = new List<string>() {"SP", "MG", "BA"};
+            
+            // System.Console.WriteLine($"Quantidade de elemetnos na lista: {estados.Count}");
+
+            // opLista.ImprimirListaString(estados);
 
             // System.Console.WriteLine("Removendo o elemento");
             
             // estados.Remove("MG");
 
-            opLista.ImprimirListaString(estados);
+            // estados.AddRange(estadosArray);
+            // estados.Insert(1, "RJ");
+
+            // opLista.ImprimirListaString(estados);
             
             
 
