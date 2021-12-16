@@ -20,7 +20,8 @@ namespace Colecoes
             System.Console.WriteLine($"Máximo: {maximo}");
             System.Console.WriteLine($"Médio: {medio}");
             System.Console.WriteLine($"Soma: {soma}");
-            System.Console.WriteLine($"Array original: {string");
+            System.Console.WriteLine($"Array original: {string.Join(",", arrayNumeros)}");
+            System.Console.WriteLine($"Array distinto: {string.Join(",", arrayUnico)}");
 
 
             // var numerosParesQuery = 
