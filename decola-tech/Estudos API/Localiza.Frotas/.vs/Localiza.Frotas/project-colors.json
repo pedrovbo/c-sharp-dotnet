@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "da8a8177-b937-4553-919e-d3cf6f64c34c": {
+      "ProjectGuid": "da8a8177-b937-4553-919e-d3cf6f64c34c",
+      "DisplayName": "Localiza.Frotas",
+      "ColorIndex": 0
+    },
+    "d2731fb8-456e-4d1b-a029-fec5a113fa09": {
+      "ProjectGuid": "d2731fb8-456e-4d1b-a029-fec5a113fa09",
+      "DisplayName": "Localiza.Frotas.Domain",
+      "ColorIndex": 1
+    },
+    "260c262c-cc92-423f-ad39-6eb090182299": {
+      "ProjectGuid": "260c262c-cc92-423f-ad39-6eb090182299",
+      "DisplayName": "Localiza.Frotas.Infra",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

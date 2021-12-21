@@ -1,0 +1,11 @@
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\bin\Debug\net6.0\Localiza.Frotas.Domain.deps.json
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\bin\Debug\net6.0\Localiza.Frotas.Domain.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\bin\Debug\net6.0\ref\Localiza.Frotas.Domain.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\bin\Debug\net6.0\Localiza.Frotas.Domain.pdb
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.AssemblyInfoInputs.cache
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.AssemblyInfo.cs
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\ref\Localiza.Frotas.Domain.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.pdb

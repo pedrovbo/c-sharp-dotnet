@@ -1,0 +1,15 @@
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Infra.deps.json
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Infra.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\ref\Localiza.Frotas.Infra.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Infra.pdb
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.AssemblyInfoInputs.cache
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.AssemblyInfo.cs
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\ref\Localiza.Frotas.Infra.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.pdb
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Domain.dll
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Domain.pdb
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.csproj.AssemblyReference.cache
+C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.csproj.CopyComplete
