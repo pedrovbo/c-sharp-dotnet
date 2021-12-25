@@ -790,11 +790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\asp-dotnet-web-api\\Localiza.Frotas\\Localiza.Frotas\\Localiza.Frotas.csproj",
+      "projectUniqueName": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas\\Localiza.Frotas.csproj",
       "projectName": "Localiza.Frotas",
-      "projectPath": "C:\\Projetos\\asp-dotnet-web-api\\Localiza.Frotas\\Localiza.Frotas\\Localiza.Frotas.csproj",
+      "projectPath": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas\\Localiza.Frotas.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\asp-dotnet-web-api\\Localiza.Frotas\\Localiza.Frotas\\obj\\",
+      "outputPath": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -811,11 +811,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projetos\\asp-dotnet-web-api\\Localiza.Frotas\\Localiza.Frotas.Domain\\Localiza.Frotas.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\asp-dotnet-web-api\\Localiza.Frotas\\Localiza.Frotas.Domain\\Localiza.Frotas.Domain.csproj"
+            "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Domain\\Localiza.Frotas.Domain.csproj": {
+              "projectPath": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Domain\\Localiza.Frotas.Domain.csproj"
             },
-            "C:\\Projetos\\asp-dotnet-web-api\\Localiza.Frotas\\Localiza.Frotas.Infra\\Localiza.Frotas.Infra.csproj": {
-              "projectPath": "C:\\Projetos\\asp-dotnet-web-api\\Localiza.Frotas\\Localiza.Frotas.Infra\\Localiza.Frotas.Infra.csproj"
+            "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Infra\\Localiza.Frotas.Infra.csproj": {
+              "projectPath": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Infra\\Localiza.Frotas.Infra.csproj"
             }
           }
         }

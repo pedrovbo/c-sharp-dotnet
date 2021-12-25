@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\decola-tech",
-    "\\decola-tech\\DecolaTech"
+    "\\decola-tech\\DecolaTech\\DecolaTech",
+    "\\decola-tech\\Estudos API",
+    "\\decola-tech\\Estudos API\\Localiza.Frotas",
+    "\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Infra",
+    "\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Infra\\Repository",
+    "\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Infra\\Repository\\EF"
   ],
-  "SelectedNode": "\\decola-tech\\DecolaTech\\DecolaTech.sln",
+  "SelectedNode": "\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Infra\\Repository\\EF\\FrotaRepository.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -9,3 +9,15 @@ C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\
 C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.dll
 C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\ref\Localiza.Frotas.Domain.dll
 C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\bin\Debug\net6.0\Localiza.Frotas.Domain.deps.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\bin\Debug\net6.0\Localiza.Frotas.Domain.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\bin\Debug\net6.0\ref\Localiza.Frotas.Domain.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\bin\Debug\net6.0\Localiza.Frotas.Domain.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.csproj.AssemblyReference.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.AssemblyInfoInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.AssemblyInfo.cs
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.csproj.CoreCompileInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\ref\Localiza.Frotas.Domain.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Domain\obj\Debug\net6.0\Localiza.Frotas.Domain.pdb

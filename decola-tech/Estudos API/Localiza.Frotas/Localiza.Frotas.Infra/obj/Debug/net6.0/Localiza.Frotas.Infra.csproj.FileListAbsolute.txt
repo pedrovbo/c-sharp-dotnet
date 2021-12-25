@@ -13,3 +13,18 @@ C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\n
 C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Domain.pdb
 C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.csproj.AssemblyReference.cache
 C:\Projetos\asp-dotnet-web-api\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.csproj.CopyComplete
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Infra.deps.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Infra.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\ref\Localiza.Frotas.Infra.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Infra.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Domain.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\bin\Debug\net6.0\Localiza.Frotas.Domain.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.csproj.AssemblyReference.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.AssemblyInfoInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.AssemblyInfo.cs
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.csproj.CoreCompileInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.csproj.CopyComplete
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\ref\Localiza.Frotas.Infra.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\Estudos API\Localiza.Frotas\Localiza.Frotas.Infra\obj\Debug\net6.0\Localiza.Frotas.Infra.pdb

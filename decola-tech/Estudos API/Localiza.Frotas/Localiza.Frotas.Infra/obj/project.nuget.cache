@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VLQCbgbiLZ/IbXQVtPuTPqgwjTWB1UF1n6nzM4a3f4G9bEy24dANuBr5W3xTzDNRYpEGoZhSQl/u1iqZ1xnPwQ==",
+  "dgSpecHash": "XCIdeLBFaH2meSJW2ocNpyKAxAFMUqUG8URa1p7560mD5Vv+wwX5Zc7LefTGrZ8fOG925aY8o9NJ34mUlVfu7A==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\asp-dotnet-web-api\\Localiza.Frotas\\Localiza.Frotas.Infra\\Localiza.Frotas.Infra.csproj",
+  "projectFilePath": "C:\\GitHub\\repositorios\\c-sharp-dotnet\\decola-tech\\Estudos API\\Localiza.Frotas\\Localiza.Frotas.Infra\\Localiza.Frotas.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
