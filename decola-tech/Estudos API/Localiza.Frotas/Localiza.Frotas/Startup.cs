@@ -1,4 +1,5 @@
 ﻿using Localiza.Frotas.Domain;
+using Localiza.Frotas.Infra.Facade;
 using Localiza.Frotas.Infra.Repository;
 using Localiza.Frotas.Infra.Repository.EF;
 using Localiza.Frotas.Infra.Singleton;
@@ -44,6 +45,9 @@ namespace Localiza.Frotas
 
             services.AddDbContext<FrotaContext>(opt =>
                                                    opt.UseInMemoryDatabase("Frota"));
+            services.AddTransient<IVeiculoDetran, VeiculoDetranFacade>();
+            services.Configure<DetranOptions>(Configuration.GetSection("DetranOptions"));
+            services.AddHttpClient();
 
             // services.AddHttpClient();
 
