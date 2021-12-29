@@ -1,0 +1,15 @@
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\bin\Debug\net6.0\desafios-codigo.exe
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\bin\Debug\net6.0\desafios-codigo.deps.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\bin\Debug\net6.0\desafios-codigo.runtimeconfig.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\bin\Debug\net6.0\desafios-codigo.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\bin\Debug\net6.0\ref\desafios-codigo.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\bin\Debug\net6.0\desafios-codigo.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\desafios-codigo.csproj.AssemblyReference.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\desafios-codigo.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\desafios-codigo.AssemblyInfoInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\desafios-codigo.AssemblyInfo.cs
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\desafios-codigo.csproj.CoreCompileInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\desafios-codigo.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\ref\desafios-codigo.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\desafios-codigo.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\desafios-codigo\obj\Debug\net6.0\desafios-codigo.genruntimeconfig.cache
