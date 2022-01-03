@@ -24,6 +24,25 @@ namespace DIO.Series
             Ano = ano;
         }
 
+        public override string ToString()
+        {
+            string retorno = "";
+            retorno += "Gênero: " + this.Genero + Environment.NewLine;
+            retorno += "Título: " + this.Titulo + Environment.NewLine;
+            retorno += "Descrição: " + this.Descricao + Environment.NewLine;
+            retorno += "Ano de Início: " + this.Ano;
+            return retorno;
+        }
+
+        public string retornaTitulo()
+        {
+            return this.Titulo;
+        }
+
+        internal int retornaId()
+        {
+            return this.Id;
+        }
 
     }
 }
