@@ -1,16 +1,15 @@
 // using System;
 
 
-// namespace Dio
-// {
-//     class Xenlongao
+
+//     class DIO
 //     {   
 //         static void Main(string[] args)
 //         {
 //             int casosTeste = Convert.ToInt32(Console.ReadLine());
 //             int numeroEsferas = Convert.ToInt32(Console.ReadLine());
 //             int minimoEsferas = 0;
-            
+
 //             while (casosTeste > 0)
 //             {
 //                 minimoEsferas = (int)Math.Sqrt(numeroEsferas);
@@ -19,4 +18,4 @@
 //             Console.WriteLine(numeroEsferas - minimoEsferas);
 //         }
 //     }
-// }
+// 
