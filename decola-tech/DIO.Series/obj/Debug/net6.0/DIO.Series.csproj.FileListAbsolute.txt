@@ -1,0 +1,15 @@
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\bin\Debug\net6.0\DIO.Series.exe
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\bin\Debug\net6.0\DIO.Series.deps.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\bin\Debug\net6.0\DIO.Series.runtimeconfig.json
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\bin\Debug\net6.0\DIO.Series.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\bin\Debug\net6.0\ref\DIO.Series.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\bin\Debug\net6.0\DIO.Series.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\DIO.Series.csproj.AssemblyReference.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\DIO.Series.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\DIO.Series.AssemblyInfoInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\DIO.Series.AssemblyInfo.cs
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\DIO.Series.csproj.CoreCompileInputs.cache
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\DIO.Series.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\ref\DIO.Series.dll
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\DIO.Series.pdb
+C:\GitHub\repositorios\c-sharp-dotnet\decola-tech\DIO.Series\obj\Debug\net6.0\DIO.Series.genruntimeconfig.cache
