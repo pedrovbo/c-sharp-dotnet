@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DIO.Series.Interfaces;
 
-namespace DIO.Filme
+namespace DIO.Filmes
 {
     public class FilmeRepositorio : IRepositorio<Filme>
     {

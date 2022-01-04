@@ -1,5 +1,5 @@
 ﻿using System;
-using DIO.Filme;
+using DIO.Filmes;
 using DIO.Series.Classes;
 
 namespace DIO.Series
@@ -11,13 +11,13 @@ namespace DIO.Series
         static void Main(string[] args)
         {
             string tipoCadastro = ObterTipoCadastro();
-            string opcaoUsuario = ObterOpcaoUsuario();
-
+            
             if (tipoCadastro == "1")
             {
-                while (opcaoUsuario.ToUpper() != "X")
+                string opcaoUsuarioSeries = ObterOpcaoUsuarioSeries();
+                while (opcaoUsuarioSeries.ToUpper() != "X")
                 {
-                    switch (opcaoUsuario)
+                    switch (opcaoUsuarioSeries)
                     {
                         case "1":
                             ListarSeries();
@@ -42,20 +42,21 @@ namespace DIO.Series
                             throw new ArgumentOutOfRangeException();
                     }
 
-                    opcaoUsuario = ObterOpcaoUsuario().ToUpper();
+                    opcaoUsuarioSeries = ObterOpcaoUsuarioSeries().ToUpper();
                 } 
             }
             else if (tipoCadastro == "2")
             {
-                while (opcaoUsuario.ToUpper() != "X")
+                string opcaoUsuarioFilmes = ObterOpcaoUsuarioFilmes();
+                while (opcaoUsuarioFilmes.ToUpper() != "X")
                 {
-                    switch (opcaoUsuario)
+                    switch (opcaoUsuarioFilmes)
                     {
                         case "1":
                             ListarFilmes();
                             break;
                         case "2":
-                            //InserirFilmes();
+                            InserirFilmes();
                             break;
                         case "3":
                             //AtualizarFilmes();
@@ -74,7 +75,7 @@ namespace DIO.Series
                             throw new ArgumentOutOfRangeException();
                     }
 
-                    opcaoUsuario = ObterOpcaoUsuario().ToUpper();
+                    opcaoUsuarioFilmes = ObterOpcaoUsuarioFilmes().ToUpper();
                 }
             }
 
@@ -204,7 +205,36 @@ namespace DIO.Series
             
         }
 
-        private static string ObterOpcaoUsuario()
+        private static void InserirFilmes()
+        {
+            Console.WriteLine("Inserir novo filme");
+
+            foreach (int i in Enum.GetValues(typeof(Genero)))
+            {
+                Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
+            }
+            Console.WriteLine("Digite o gênero entre as opções acima: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o Título do Filme: ");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.WriteLine("Digite o Ano de Início do Filme: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite a Descrição do Filme: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Filme novoFilme = new Filme(id: repositorioSerie.ProximoId(),
+                                        genero: (Genero)entradaGenero,
+                                        titulo: entradaTitulo,
+                                        ano: entradaAno,
+                                        descricao: entradaDescricao);
+
+            repositorioFilme.Insere(novoFilme);
+
+        }
+        private static string ObterOpcaoUsuarioSeries()
         {
             Console.WriteLine();
             //Console.WriteLine("DIO Séries a seu dispor!!!");
@@ -219,9 +249,30 @@ namespace DIO.Series
             Console.WriteLine("X - Sair");
             Console.WriteLine();
 
-            string opcaoUsuario = Console.ReadLine().ToUpper();
+            string opcaoUsuarioSeries = Console.ReadLine().ToUpper();
             Console.WriteLine();
-            return opcaoUsuario;
+            return opcaoUsuarioSeries;
+
+        }
+
+        private static string ObterOpcaoUsuarioFilmes()
+        {
+            Console.WriteLine();
+            //Console.WriteLine("DIO Séries a seu dispor!!!");
+            Console.WriteLine("Informe a opção desejada:");
+
+            Console.WriteLine("1 - Listar filme");
+            Console.WriteLine("2 - Inserir novo filme");
+            Console.WriteLine("3 - Atualizar filme");
+            Console.WriteLine("4 - Excluir filme");
+            Console.WriteLine("5 - Visualizar filme");
+            Console.WriteLine("C - Limpar Tela");
+            Console.WriteLine("X - Sair");
+            Console.WriteLine();
+
+            string opcaoUsuarioFilmes = Console.ReadLine().ToUpper();
+            Console.WriteLine();
+            return opcaoUsuarioFilmes;
 
         }
 

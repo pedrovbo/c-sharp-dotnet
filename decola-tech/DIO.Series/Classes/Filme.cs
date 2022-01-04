@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using DIO.Series;
 using DIO.Series.Classes;
 
-namespace DIO.Filme
+namespace DIO.Filmes
 {
     public class Filme : EntidadeBase
     {
