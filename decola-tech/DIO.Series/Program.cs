@@ -10,79 +10,86 @@ namespace DIO.Series
         static FilmeRepositorio repositorioFilme = new FilmeRepositorio();
         static void Main(string[] args)
         {
-            string tipoCadastro = ObterTipoCadastro();
-
-            if (tipoCadastro == "1")
+            string continua = "S";
+            //string tipoCadastro = ObterTipoCadastro();
+            do
             {
-                string opcaoUsuarioSeries = ObterOpcaoUsuarioSeries();
-                while (opcaoUsuarioSeries.ToUpper() != "X")
+                string tipoCadastro = ObterTipoCadastro();
+
+                if (tipoCadastro == "1")
                 {
-                    switch (opcaoUsuarioSeries)
+                    string opcaoUsuarioSeries = ObterOpcaoUsuarioSeries();
+                    while (opcaoUsuarioSeries.ToUpper() != "X")
                     {
-                        case "1":
-                            ListarSeries();
-                            break;
-                        case "2":
-                            InserirSerie();
-                            break;
-                        case "3":
-                            AtualizarSerie();
-                            break;
-                        case "4":
-                            ExcluirSerie();
-                            break;
-                        case "5":
-                            VisualizarSerie();
-                            break;
-                        case "C":
-                            Console.Clear();
-                            break;
+                        switch (opcaoUsuarioSeries)
+                        {
+                            case "1":
+                                ListarSeries();
+                                break;
+                            case "2":
+                                InserirSerie();
+                                break;
+                            case "3":
+                                AtualizarSerie();
+                                break;
+                            case "4":
+                                ExcluirSerie();
+                                break;
+                            case "5":
+                                VisualizarSerie();
+                                break;
+                            case "C":
+                                Console.Clear();
+                                break;
 
-                        default:
-                            throw new ArgumentOutOfRangeException();
+                            default:
+                                throw new ArgumentOutOfRangeException();
+                        }
+
+                        opcaoUsuarioSeries = ObterOpcaoUsuarioSeries().ToUpper();
                     }
-
-                    opcaoUsuarioSeries = ObterOpcaoUsuarioSeries().ToUpper();
                 }
-            }
-            else if (tipoCadastro == "2")
-            {
-                string opcaoUsuarioFilmes = ObterOpcaoUsuarioFilmes();
-                while (opcaoUsuarioFilmes.ToUpper() != "X")
+                else if (tipoCadastro == "2")
                 {
-                    switch (opcaoUsuarioFilmes)
+                    string opcaoUsuarioFilmes = ObterOpcaoUsuarioFilmes();
+                    while (opcaoUsuarioFilmes.ToUpper() != "X")
                     {
-                        case "1":
-                            ListarFilmes();
-                            break;
-                        case "2":
-                            InserirFilmes();
-                            break;
-                        case "3":
-                            AtualizarFilme();
-                            break;
-                        case "4":
-                            ExcluirFilme();
-                            break;
-                        case "5":
-                            VisualizarFilme();
-                            break;
-                        case "C":
-                            Console.Clear();
-                            break;
+                        switch (opcaoUsuarioFilmes)
+                        {
+                            case "1":
+                                ListarFilmes();
+                                break;
+                            case "2":
+                                InserirFilmes();
+                                break;
+                            case "3":
+                                AtualizarFilme();
+                                break;
+                            case "4":
+                                ExcluirFilme();
+                                break;
+                            case "5":
+                                VisualizarFilme();
+                                break;
+                            case "C":
+                                Console.Clear();
+                                break;
 
-                        default:
-                            throw new ArgumentOutOfRangeException();
+                            default:
+                                throw new ArgumentOutOfRangeException();
+                        }
+
+                        opcaoUsuarioFilmes = ObterOpcaoUsuarioFilmes().ToUpper();
                     }
-
-                    opcaoUsuarioFilmes = ObterOpcaoUsuarioFilmes().ToUpper();
                 }
-            }
 
-            else
-            {
-                Console.WriteLine("Valor inválido. Digite 1 para cadastro de Séries e 2 para cadastro de Filmes");
-            }
+                else
+                {
+                    Console.WriteLine("Valor inválido. Digite 1 para cadastro de Séries e 2 para cadastro de Filmes");
+                    tipoCadastro = ObterTipoCadastro();
+                }
+                continua = ContinuaCadastro();
+            } while (continua == "S");
 
             Console.WriteLine("Obrigado por utilizar nossos serviços.");
             Console.ReadLine();
@@ -336,6 +343,19 @@ namespace DIO.Series
             string tipoCadastro = Console.ReadLine().ToUpper();
             Console.WriteLine();
             return tipoCadastro;
+        }
+
+        private static string ContinuaCadastro()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Você deseja continuar cadastrando?");
+            
+            Console.WriteLine("S - Sim");
+            Console.WriteLine("N - Não");
+
+            string continua = Console.ReadLine().ToUpper();
+            Console.WriteLine();
+            return continua;
         }
 
     }
