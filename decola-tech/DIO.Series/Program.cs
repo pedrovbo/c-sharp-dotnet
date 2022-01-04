@@ -1,55 +1,99 @@
 ﻿using System;
+using DIO.Filme;
 using DIO.Series.Classes;
 
 namespace DIO.Series
 {
     class Program
     {
-        static SerieRepositorio repositorio = new SerieRepositorio();
+        static SerieRepositorio repositorioSerie = new SerieRepositorio();
+        static FilmeRepositorio repositorioFilme = new FilmeRepositorio();
         static void Main(string[] args)
         {
+            string tipoCadastro = ObterTipoCadastro();
             string opcaoUsuario = ObterOpcaoUsuario();
 
-            while (opcaoUsuario.ToUpper() != "X")
+            if (tipoCadastro == "1")
             {
-                switch (opcaoUsuario)
+                while (opcaoUsuario.ToUpper() != "X")
                 {
-                    case "1":
-                        ListarSeries();
-                        break;
-                    case "2":
-                        InserirSerie();
-                        break;
-                    case "3":
-                        AtualizarSerie();
-                        break;
-                    case "4":
-                        ExcluirSerie();
-                        break;
-                    case "5":
-                        VisualizarSerie();
-                        break;
-                    case "C":
-                        Console.Clear();
-                        break;
-                    
-                    default:
-                        throw new ArgumentOutOfRangeException();
-                }
+                    switch (opcaoUsuario)
+                    {
+                        case "1":
+                            ListarSeries();
+                            break;
+                        case "2":
+                            InserirSerie();
+                            break;
+                        case "3":
+                            AtualizarSerie();
+                            break;
+                        case "4":
+                            ExcluirSerie();
+                            break;
+                        case "5":
+                            VisualizarSerie();
+                            break;
+                        case "C":
+                            Console.Clear();
+                            break;
 
-                opcaoUsuario = ObterOpcaoUsuario().ToUpper();
+                        default:
+                            throw new ArgumentOutOfRangeException();
+                    }
+
+                    opcaoUsuario = ObterOpcaoUsuario().ToUpper();
+                } 
+            }
+            else if (tipoCadastro == "2")
+            {
+                while (opcaoUsuario.ToUpper() != "X")
+                {
+                    switch (opcaoUsuario)
+                    {
+                        case "1":
+                            ListarFilmes();
+                            break;
+                        case "2":
+                            //InserirFilmes();
+                            break;
+                        case "3":
+                            //AtualizarFilmes();
+                            break;
+                        case "4":
+                            //ExcluirFilmes();
+                            break;
+                        case "5":
+                            //VisualizarFilmes();
+                            break;
+                        case "C":
+                            Console.Clear();
+                            break;
+
+                        default:
+                            throw new ArgumentOutOfRangeException();
+                    }
+
+                    opcaoUsuario = ObterOpcaoUsuario().ToUpper();
+                }
+            }
+
+            else
+            {
+                Console.WriteLine("Valor inválido. Digite 1 para cadastro de Séries e 2 para cadastro de Filmes");
             }
 
             Console.WriteLine("Obrigado por utilizar nossos serviços.");
             Console.ReadLine();
         }
 
+        
         private static void ExcluirSerie()
         {
             Console.WriteLine("Digite o id da série: ");
             int indiceSerie = int.Parse(Console.ReadLine());
 
-            repositorio.Exclui(indiceSerie);
+            repositorioSerie.Exclui(indiceSerie);
         }
 
         private static void VisualizarSerie()
@@ -57,7 +101,7 @@ namespace DIO.Series
             Console.WriteLine("Digite o id da série: ");
             int indiceSerie = int.Parse(Console.ReadLine());
 
-            var serie = repositorio.RetornaPorId(indiceSerie);
+            var serie = repositorioSerie.RetornaPorId(indiceSerie);
 
             Console.WriteLine(serie);
         }
@@ -89,14 +133,14 @@ namespace DIO.Series
                                             ano: entradaAno,
                                             descricao: entradaDescricao);
 
-            repositorio.Atualiza(indiceSerie, atualizaSerie);
+            repositorioSerie.Atualiza(indiceSerie, atualizaSerie);
         }
 
         private static void ListarSeries()
         {
             Console.WriteLine("Listar séries");
 
-            var lista = repositorio.Lista();
+            var lista = repositorioSerie.Lista();
 
             if (lista.Count == 0)
             {
@@ -108,6 +152,25 @@ namespace DIO.Series
                 var excluido = serie.retornaExcluido();
                 
                 Console.WriteLine("#ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "*Excluido*" : ""));
+            }
+        }
+
+        private static void ListarFilmes()
+        {
+            Console.WriteLine("Listar filmes");
+
+            var lista = repositorioFilme.Lista();
+
+            if (lista.Count == 0)
+            {
+                Console.WriteLine("Nenhuma filme cadastrado.");
+                return;
+            }
+            foreach (var filme in lista)
+            {
+                var excluido = filme.retornaExcluido();
+
+                Console.WriteLine("#ID {0}: - {1} {2}", filme.retornaId(), filme.retornaTitulo(), (excluido ? "*Excluido*" : ""));
             }
         }
 
@@ -131,20 +194,20 @@ namespace DIO.Series
             Console.WriteLine("Digite a Descrição da Série: ");
             string entradaDescricao = Console.ReadLine();
 
-            Serie novaSerie = new Serie(id: repositorio.ProximoId(),
+            Serie novaSerie = new Serie(id: repositorioSerie.ProximoId(),
                                         genero: (Genero)entradaGenero,
                                         titulo: entradaTitulo,
                                         ano: entradaAno,
                                         descricao: entradaDescricao);
             
-            repositorio.Insere(novaSerie);
+            repositorioSerie.Insere(novaSerie);
             
         }
 
         private static string ObterOpcaoUsuario()
         {
             Console.WriteLine();
-            Console.WriteLine("DIO Séries a seu dispor!!!");
+            //Console.WriteLine("DIO Séries a seu dispor!!!");
             Console.WriteLine("Informe a opção desejada:");
 
             Console.WriteLine("1 - Listar séries");
@@ -161,5 +224,21 @@ namespace DIO.Series
             return opcaoUsuario;
 
         }
+
+        private static string ObterTipoCadastro()
+        {
+            Console.WriteLine();
+            Console.WriteLine("DIO Séries e Filmes a seu dispor!!!");
+            Console.WriteLine("Informe o tipo de cadastro desejado:");
+
+            
+            Console.WriteLine("1 - Séries");
+            Console.WriteLine("2 - Filmes");
+
+            string tipoCadastro = Console.ReadLine().ToUpper();
+            Console.WriteLine();
+            return tipoCadastro;
+        }
+
     }
 }
