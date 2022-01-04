@@ -89,6 +89,7 @@ namespace DIO.Series
                     tipoCadastro = ObterTipoCadastro();
                 }
                 continua = ContinuaCadastro();
+
             } while (continua == "S");
 
             Console.WriteLine("Obrigado por utilizar nossos serviços.");
