@@ -60,7 +60,7 @@ namespace DIO.Series
                                 ListarFilmes();
                                 break;
                             case "2":
-                                InserirFilmes();
+                                InserirFilme();
                                 break;
                             case "3":
                                 AtualizarFilme();
@@ -260,7 +260,7 @@ namespace DIO.Series
 
         }
 
-        private static void InserirFilmes()
+        private static void InserirFilme()
         {
             Console.WriteLine("Inserir novo filme");
 
