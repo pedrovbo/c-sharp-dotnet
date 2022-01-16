@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Classes",
+    "\\Enum",
+    "\\Interfaces"
   ],
+  "SelectedNode": "\\DIO.Series.sln",
   "PreviewInSolutionExplorer": false
 }
